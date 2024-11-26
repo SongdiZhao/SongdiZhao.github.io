@@ -31,17 +31,32 @@ Here is an overview of the dataset, how it was obtained and the preprocessing st
 
 ## Modelling
 
-Here are some more details about the machine learning approach, and why this was deemed appropriate for the dataset. 
+To analyze the scarcity of lithium brine sources and classify lithium deposits, we used a supervised machine learning approach. The dataset from the USGS National Produced Waters Geochemical Database provided a variety of features such as TDS, pH, depth, latitude, and longitude, which are highly relevant for understanding the nature of lithium sources. A Random Forest Classifier was chosen for its robustness to overfitting, interpretability, and ability to handle mixed types of data.
 
-The model might involve optimizing some quantity. You can include snippets of code if it is helpful to explain things.
+The model was trained to classify lithium deposits as brine or non-brine based on labeled data. Labels were generated using domain knowledge, with geological formations containing keywords like "Brine," "Aquifer," or "Smackover" marked as brine sources. Features were carefully selected and preprocessed to ensure relevance and completeness, with missing values imputed using median values. The Random Forest Classifier was then optimized for performance using a grid search to fine-tune hyperparameters such as the number of estimators and maximum tree depth.
+
+Below is an example of the machine learning code used to develop and train the model:
 
 ```python
-from sklearn.ensemble import ExtraTreesClassifier
-from sklearn.datasets import make_classification
-X, y = make_classification(n_features=4, random_state=0)
-clf = ExtraTreesClassifier(n_estimators=100, random_state=0)
-clf.fit(X, y)
-clf.predict([[0, 0, 0, 0]])
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import classification_report
+
+# Feature selection
+features = ['TDS', 'DEPTHUPPER', 'DEPTHLOWER', 'LATITUDE', 'LONGITUDE', 'TEMP', 'PH']
+X = data[features].fillna(data[features].median())  # Impute missing values
+y = data['is_brine']
+
+# Train-test split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Train Random Forest model
+rf_model = RandomForestClassifier(n_estimators=100, random_state=42)
+rf_model.fit(X_train, y_train)
+
+# Evaluate the model
+y_pred = rf_model.predict(X_test)
+print(classification_report(y_test, y_pred))
 ```
 
 This is how the method was developed.
