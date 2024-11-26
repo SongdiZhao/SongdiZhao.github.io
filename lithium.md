@@ -1,6 +1,6 @@
 ## My Project
 
-In this final project, I applied machine learning techniques to investigate the scarcity of the existing lithium brine sources and the limitations of other extraction methods, such as hard rock and clay. Below is my report.
+In this final project, the machine learning techniques was applied to investigate the scarcity of the existing lithium brine sources and the limitations of other extraction methods, such as hard rock and clay. Below is my report.
 
 ***
 
