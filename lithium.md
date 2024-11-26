@@ -1,4 +1,8 @@
-## My Project
+## Final Project: Highlighting the Scarcity of Brine Sources and the Future Potential of Oceanic Extraction from Machine Learning
+Songdi Zhao
+Department of Civil and Environmental Engineering
+University of California, Los Angeles
+November, 2024
 
 In this final project, the machine learning techniques was applied to investigate the scarcity of the existing lithium brine sources and the limitations of other extraction methods, such as hard rock and clay. Below is my report.
 
@@ -23,7 +27,7 @@ After resolving the set approaches, we concluded that the existing brine lithium
 
 ## Data
 
-Here is an overview of the dataset, how it was obtained and the preprocessing steps taken, with some plots!
+The dataset selected for this project was sourced from the USGS National Produced Waters Geochemical Database, a publicly available resource containing detailed geochemical and spatial data on lithium concentrations across various geological formations. Indeed, this dataset provides essential features, including total dissolved solids (TDS), pH, temperature, depth, latitude, longitude, and formation names, etc., which are critical for classifying lithium sources as brine or non-brine. The overview of regional distribution of the discovered lithium source is presented in the figure below:  
 
 ![](assets/IMG/datapenguin.png){: width="500" }
 
