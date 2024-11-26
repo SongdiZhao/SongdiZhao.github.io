@@ -17,7 +17,7 @@ For this project, I applied a **supervised machine learning technique** using a 
 2. Training the model to predict brine classifications using geochemical and spatial features.
 3. Evaluating the results to identify the scarcity of brine reservoirs and the challenges of accessing alternative sources.
 
-By solving this problem, we concluded that brine lithium sources are indeed limited, and other sources such as hard rock and clay are less accessible or scalable for widespread extraction. These findings highlight the immense potential of oceanic brine as a future lithium resource, motivating research into technologies like lithium-selective membranes (e.g., MM membranes) to make seawater extraction viable.
+After resolving the set approaches, we concluded that the existing brine lithium sources are indeed limited, and other sources such as hard rock and clay are less accessible or scalable for widespread extraction. These findings highlight the immense potential of further exploration of in-land and oceanic brine as a future lithium resource, motivating research into technologies like lithium-selective membranes (e.g., MM membranes) to make seawater extraction viable.
 
 
 
