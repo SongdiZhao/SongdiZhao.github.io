@@ -56,11 +56,13 @@ From Figure X, one can see that... [interpretation of Figure X].
 
 ## Conclusion
 
-Here is a brief summary. From this work, the following conclusions can be made:
-* first conclusion
-* second conclusion
+## Conclusion
 
-Here is how this work could be developed further in a future project.
+This project explored the application of machine learning to analyze lithium sources, focusing on the classification and evaluation of brine and non-brine deposits. The results demonstrated that the existing brine sources, while highly valuable for lithium extraction, are geographically scarce and insufficient to meet the rapidly growing demand for lithium driven by renewable energy technologies. Other sources, such as hard rock and clay, pose significant accessibility and cost challenges, further highlighting the limitations of current extraction methods. These findings underscore the need for innovative approaches to address the looming lithium supply gap.
+
+One promising avenue is oceanic brine lithium extraction, which offers vast potential due to the abundance of lithium in seawater. However, its success depends on overcoming technical challenges, such as low lithium concentrations and competition from other ions. This work emphasizes the importance of advancing selective extraction technologies, particularly the development of MM membranes (lithium-selective membrane), to make seawater extraction feasible and scalable. Such advancements could transform oceanic lithium recovery into a sustainable and viable solution, meeting future demand while minimizing the environmental and economic constraints of traditional methods. 
+
+Even though the lithium extraction from oceanic brine have shown promising paveways for the more sustainable future, the existing membrane technologies have remained in experimental development stages, and very few of them are further into the step of scaling up and industrilization. Hopefully, this machine-learning project can efficiently present the deficiencies of the existing lithium extraction technologies as well as its negative impacts on the sustainable environments, and help this rising technology to gain more widespread public attentions. 
 
 ## References
 [1] DALL-E 3
