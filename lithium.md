@@ -54,7 +54,6 @@ Figure X shows... [description of Figure X].
 
 From Figure X, one can see that... [interpretation of Figure X].
 
-## Conclusion
 
 ## Conclusion
 
@@ -62,7 +61,7 @@ This project explored the application of machine learning to analyze lithium sou
 
 One promising avenue is oceanic brine lithium extraction, which offers vast potential due to the abundance of lithium in seawater. However, its success depends on overcoming technical challenges, such as low lithium concentrations and competition from other ions. This work emphasizes the importance of advancing selective extraction technologies, particularly the development of MM membranes (lithium-selective membrane), to make seawater extraction feasible and scalable. Such advancements could transform oceanic lithium recovery into a sustainable and viable solution, meeting future demand while minimizing the environmental and economic constraints of traditional methods. 
 
-Even though the lithium extraction from oceanic brine have shown promising paveways for the more sustainable future, the existing membrane technologies have remained in experimental development stages, and very few of them are further into the step of scaling up and industrilization. Hopefully, this machine-learning project can efficiently present the deficiencies of the existing lithium extraction technologies as well as its negative impacts on the sustainable environments, and help this rising technology to gain more widespread public attentions. 
+Even though lithium extraction from oceanic brine has shown promising pathways for a more sustainable future, existing membrane technologies remain largely in experimental development stages, with very few advancing to scaling up and industrialization. This machine-learning project effectively highlights the deficiencies of current lithium extraction methods and their environmental impacts, emphasizing the urgent need for scalable, efficient solutions. By presenting these challenges and opportunities, this work aims to bring greater public and research attention to this rising technology, fostering advancements that could lead to a more sustainable and widely adopted approach to lithium recovery.
 
 ## References
 [1] DALL-E 3
