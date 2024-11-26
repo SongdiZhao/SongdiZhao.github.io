@@ -1,8 +1,12 @@
 ## Final Project: Highlighting the Scarcity of Brine Sources and the Future Potential of Oceanic Extraction from Machine Learning
 Songdi Zhao
+
 Department of Civil and Environmental Engineering
+
 University of California, Los Angeles
+
 November, 2024
+
 
 In this final project, the machine learning techniques was applied to investigate the scarcity of the existing lithium brine sources and the limitations of other extraction methods, such as hard rock and clay. Below is my report.
 
