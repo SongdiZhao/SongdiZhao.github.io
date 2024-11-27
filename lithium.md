@@ -33,7 +33,7 @@ After resolving the set approaches, we concluded that the existing brine lithium
 
 The dataset selected for this project was sourced from the USGS National Produced Waters Geochemical Database, a publicly available resource containing detailed geochemical and spatial data on lithium concentrations across various geological formations. Indeed, this dataset provides essential features, including total dissolved solids (TDS), pH, temperature, depth, latitude, longitude, and formation names, etc., which are critical for classifying lithium sources as brine or non-brine. The overview of regional distribution of the discovered lithium source is presented in the figure below:  
 
-![](assets/IMG/datapenguin.png){: width="500" }
+![](assets/IMG/lithium_concentration_map.png){: width="500" }
 
 *Figure 1: Here is a caption for my diagram. This one shows a pengiun [1].*
 
