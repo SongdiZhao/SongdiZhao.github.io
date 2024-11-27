@@ -90,7 +90,15 @@ This high level of performance can be attributed to the careful selection of fea
 
 ## Discussion
 
-From Figure X, one can see that... [interpretation of Figure X].
+The results of this project highlight the effectiveness of a machine learning approach in classifying lithium sources and provide valuable insights into the distribution and scarcity of brine-associated deposits. The Random Forest Classifier demonstrated exceptional accuracy, correctly identifying 22,392 non-brine sources and 14 brine sources in the test dataset with minimal misclassifications. The confusion matrix (Figure 2) underscores the model’s robustness and suitability for this classification task, with misclassification rates remaining extremely low. These findings validate the relevance of geochemical and spatial features, such as total dissolved solids (TDS), depth, and pH, in distinguishing between brine and non-brine sources.
+
+When applied to the entire dataset, the model classified 1,166 rows as brine sources and 111,969 rows as non-brine sources. This stark disparity further reinforces the scarcity of brine-associated lithium deposits, which are currently the most economically viable sources of lithium extraction. These results emphasize the importance of exploring alternative sources to meet the growing global demand for lithium, especially in light of the limitations posed by hard rock and clay deposits.
+
+Oceanic brine extraction emerges as a promising avenue for addressing this challenge. The vast reserves of lithium in seawater present a potentially sustainable solution, though technological barriers—such as low lithium concentrations and interference from other ions—must be addressed. Innovations in selective extraction technologies, such as the development of MM membranes, could play a transformative role in overcoming these challenges. By offering precise separation capabilities and scalability potential, these membranes represent a critical research focus for the future.
+
+This project also highlights the broader implications of machine learning in resource classification and management. The ability of the Random Forest Classifier to generalize across the dataset demonstrates its utility as a tool for large-scale resource assessment. Beyond classification, such models can guide exploration efforts by identifying key predictors and providing insights into the geochemical and geological factors that influence resource availability.
+
+Overall, this work underscores the need for a dual approach: advancing machine learning applications for resource analysis and investing in innovative technologies to extract lithium sustainably. The findings provide a solid foundation for future research into the development of scalable extraction methods and the identification of high-potential resource areas, ensuring a more sustainable and accessible supply of lithium to meet global energy demands.
 
 
 ## Conclusion
