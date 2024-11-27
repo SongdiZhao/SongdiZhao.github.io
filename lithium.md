@@ -82,7 +82,11 @@ The performance of the Random Forest Classifier in classifying lithium sources a
 
 As shown in Figure 2, the model achieved exceptional accuracy, correctly identifying 22,392 non-brine sources and 14 brine sources with minimal misclassifications. The confusion matrix demonstrates the model's ability to differentiate between brine and non-brine sources effectively. Out of the total samples, misclassification rates were extremely low, reflecting the robustness of the model and its suitability for this classification task.
 
-![](assets/IMG/lithium_concentration_map.png){: width="500" }
+![](assets/IMG/confusion_matrix.png){: width="500" }
+
+*Figure 2: Confusion matrix illustrating the performance of the Random Forest Classifier in classifying lithium sources as brine or non-brine. The strong diagonal values highlight the model's effectiveness in making accurate predictions, with only a small number of misclassifications.*
+
+This high level of performance can be attributed to the careful selection of features, such as total dissolved solids (TDS), depth, and pH, which were highly relevant to distinguishing brine from non-brine lithium sources. The results indicate that the machine learning model provides reliable insights into the classification of lithium deposits, forming a solid foundation for further research and practical applications.
 
 ## Discussion
 
