@@ -78,7 +78,11 @@ The Random Forest Classifier was chosen for its ability to handle non-linear rel
 
 ## Results
 
-Figure X shows... [description of Figure X].
+The performance of the Random Forest Classifier in classifying lithium sources as brine or non-brine was evaluated using various metrics, including a confusion matrix. The confusion matrix provides a clear overview of the model's classification accuracy, comparing the predicted labels to the actual labels in the test dataset.
+
+As shown in Figure 2, the model achieved exceptional accuracy, correctly identifying 22,392 non-brine sources and 14 brine sources with minimal misclassifications. The confusion matrix demonstrates the model's ability to differentiate between brine and non-brine sources effectively. Out of the total samples, misclassification rates were extremely low, reflecting the robustness of the model and its suitability for this classification task.
+
+![](assets/IMG/lithium_concentration_map.png){: width="500" }
 
 ## Discussion
 
