@@ -88,6 +88,18 @@ As shown in Figure 2, the model achieved exceptional accuracy, correctly identif
 
 This high level of performance can be attributed to the careful selection of features, such as total dissolved solids (TDS), depth, and pH, which were highly relevant to distinguishing brine from non-brine lithium sources. The results indicate that the machine learning model provides reliable insights into the classification of lithium deposits, forming a solid foundation for further research and practical applications.
 
+![](assets/IMG/box_plot.png){: width="300" }
+*Figure 3: Boxplot comparing lithium concentrations in brine and non-brine areas. Brine sources show higher median concentrations and a broader range of values compared to non-brine sources.* 
+
+Moreover, two visualizations (plots) further illustrate the viewpoint and findings. Firstly, the boxplot in Figure 3 demonstrates the stark differences in lithium concentrations between brine and non-brine sources, with brine deposits showing significantly higher concentrations and variability. This discovery highlights the economic importance of brine sources while reinforcing the limitations of non-brine deposits as a primary lithium resource.
+
+Secondly, the geospatial plot in Figure 4 provides a clear representation of the geographic distribution of brine and non-brine sources, with brine sources concentrated in specific regions. This visualization highlights the limited spatial availability of brine deposits, offering key insights into areas of focus for future exploration and resource management. The clustering of brine deposits reflects their geochemical dependency on specific geological formations, further emphasizing their scarcity.
+
+![](assets/IMG/geospatial.png){: width="300" }
+*Figure 4: Geospatial distribution of predicted brine (blue) and non-brine (red) lithium sources. Brine sources are concentrated in limited geographic areas, reflecting their scarcity and potential for targeted exploration.* 
+
+To sum up, these results sufficiently validate the machine learning model's ability to accurately classify lithium sources and provide actionable insights into the distribution and characteristics of brine and non-brine deposits. These findings lay a strong foundation for further research into scalable extraction methods and strategies for addressing the scarcity of economically viable lithium reserves.
+
 ## Discussion
 
 The results of this project highlight the effectiveness of a machine learning approach in classifying lithium sources and provide valuable insights into the distribution and scarcity of brine-associated deposits. The Random Forest Classifier demonstrated exceptional accuracy, correctly identifying 22,392 non-brine sources and 14 brine sources in the test dataset with minimal misclassifications. The confusion matrix (Figure 2) underscores the model’s robustness and suitability for this classification task, with misclassification rates remaining extremely low. These findings validate the relevance of geochemical and spatial features, such as total dissolved solids (TDS), depth, and pH, in distinguishing between brine and non-brine sources.
