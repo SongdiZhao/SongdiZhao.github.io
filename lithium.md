@@ -35,7 +35,7 @@ The dataset selected for this project was sourced from the USGS National Produce
 
 ![](assets/IMG/lithium_concentration_map.png){: width="500" }
 
-*Figure 1: Here is a caption for my diagram. This one shows a pengiun [1].*
+*Figure 1: Geospatial distribution of lithium concentrations across geological formations in the United States. The color scale represents lithium concentrations (mg/L), with higher concentrations indicated by lighter colors. Data points are overlaid on an OpenStreetMap basemap to visualize the spatial variability and scarcity of lithium-rich regions.*
 
 ## Modelling
 
