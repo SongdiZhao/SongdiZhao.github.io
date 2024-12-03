@@ -127,7 +127,8 @@ One promising avenue is oceanic brine lithium extraction, which offers vast pote
 Even though lithium extraction from oceanic brine has shown promising pathways for a more sustainable future, existing membrane technologies remain largely in experimental development stages, with very few advancing to scaling up and industrialization. This machine-learning project effectively highlights the deficiencies of current lithium extraction methods and their environmental impacts, emphasizing the urgent need for scalable, efficient solutions. By presenting these challenges and opportunities, this work aims to bring greater public and research attention to this rising technology, fostering advancements that could lead to a more sustainable and widely adopted approach to lithium recovery.
 
 ## References
-[1] DALL-E 3
+[1] U.S. Geological Survey (USGS). (2024). National Produced Waters Geochemical Database. Available at: [https://www.sciencebase.gov/catalog/item/64fa1e71d34ed30c2054ea11](https://www.sciencebase.gov/catalog/item/64fa1e71d34ed30c2054ea11).
+
 
 [back](./)
 
