@@ -128,6 +128,7 @@ Even though lithium extraction from oceanic brine has shown promising pathways f
 
 ## References
 [1] U.S. Geological Survey (USGS). (2024). National Produced Waters Geochemical Database. Available at: [https://www.sciencebase.gov/catalog/item/64fa1e71d34ed30c2054ea11](https://www.sciencebase.gov/catalog/item/64fa1e71d34ed30c2054ea11).
+
 [2] Xiong, Y., Zhou, J., Lu, P., Yin, J., Wang, Y., & Fan, Z. (2022). Electrochemical lithium extraction from aqueous sources. *Matter*, 5(6), 1760–1791. [https://doi.org/10.1016/j.matt.2022.04.034](https://doi.org/10.1016/j.matt.2022.04.034).
 
 
