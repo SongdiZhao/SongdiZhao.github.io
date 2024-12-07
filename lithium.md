@@ -50,24 +50,36 @@ The model was trained to classify lithium deposits as brine or non-brine based o
 Below is an example code for the machine learning to develop and train the model:
 
 ```python
-from sklearn.ensemble import RandomForestClassifier
+#Determine if the lithium concentration is sourced from brine through machine learning approach
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import classification_report
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import classification_report, confusion_matrix
+import seaborn as sns
+import matplotlib.pyplot as plt
 
-# Feature selection
+# Step 1: Create labeled data
+# Define brine formations or regions (use domain knowledge)
+brine_keywords = ["Brine", "Aquifer", "Smackover", "Salton Sea", "Clayton Valley"]
+data['is_brine'] = data['FORMATION'].str.contains('|'.join(brine_keywords), case=False, na=False).astype(int)
+
+# Step 2: Select features for the model
 features = ['TDS', 'DEPTHUPPER', 'DEPTHLOWER', 'LATITUDE', 'LONGITUDE', 'TEMP', 'PH']
-X = data[features].fillna(data[features].median())  # Impute missing values
+X = data[features]
 y = data['is_brine']
 
-# Train-test split
+# Handle missing values (if necessary)
+X = X.fillna(X.median())
+
+# Step 3: Split data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# Train Random Forest model
-rf_model = RandomForestClassifier(n_estimators=100, random_state=42)
+# Step 4: Train a Random Forest classifier
+rf_model = RandomForestClassifier(random_state=42, n_estimators=100)
 rf_model.fit(X_train, y_train)
 
-# Evaluate the model
+# Step 5: Evaluate the model
 y_pred = rf_model.predict(X_test)
+print("Classification Report:")
 print(classification_report(y_test, y_pred))
 ```
 
